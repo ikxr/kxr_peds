@@ -41,7 +41,6 @@ Citizen.CreateThread(function()
 
         local ped = CreatePed(4, GetHashKey(pedData.model), pedData.coords.x, pedData.coords.y, pedData.coords.z, 0.0, false, true)
         
-        -- Set ped properties
         SetEntityInvincible(ped, true)
         SetBlockingOfNonTemporaryEvents(ped, true)
         FreezeEntityPosition(ped, true)
